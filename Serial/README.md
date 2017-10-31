@@ -18,7 +18,7 @@ You will also need to download this file: [p5.serialport.js](https://raw.githubu
 
 ![p5 add file](p5-add-file.png "Add file to P5")
 
-Once you've added this file, you will need to write a link to include it in your index page. In the `<head>` of the index page, after the script tags that link to the p5 library, add this line:
+Once you've added this file, you will need to write a link to include it in your index page. In the `<head>` of the index page, **after the script tags that link to the p5 library**, add this line:
 
 `<script language="javascript" type="text/javascript" src="p5.serialport.js"></script>`
 
