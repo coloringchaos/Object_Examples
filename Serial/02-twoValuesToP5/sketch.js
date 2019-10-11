@@ -10,8 +10,8 @@ sensor1,sensor2
 sensor1,sensor2
 ...
 
-// By Arielle Hein, adapted from ITP Phys Comp Serial In Lab
-// Edited Oct 31 2017
+// By Arielle Hein
+// Edited Oct 2019
 
 */
 
@@ -20,7 +20,7 @@ var serial; //variable to hold an instance of the serial port library
 var portName = 'YOUR PORT'; //fill in with YOUR port
 
 var inData; //a variable to store incoming data
-var sensor1, sensor2; //variables for each of my incoming sensor values
+var sensor1, sensor2; //variables for each of my incoming sensor values - name these whatever you want
 
 function setup() {
   createCanvas(400, 300);
@@ -35,11 +35,6 @@ function setup() {
 
   //open our serial port
   serial.open(portName);
-
-  //let's figure out what port we're on
-  //I only use this at first when I'm determining my port
-  // serial.on('list', printList); //set a callback function for the serialport list event
-  // serial.list(); //list the serial ports
 }
 
 function draw() {
