@@ -39,4 +39,4 @@ A few notes on running this example:
 + Be sure that you have downloaded the p5 serial control application to run in the background. This is a necessary step in connecting your web browser (p5) to the serial port on your computer.
 + Make sure the Arduino serial monitor is **closed** before you move to the P5 side
 
-**[Here is the completed P5 code](https://github.com/coloringchaos/Object_Examples/blob/master/Serial/02-twoValuesToP5/sketch.js)**
+**[Here is the completed P5 code](https://github.com/coloringchaos/Object_Examples/blob/master/Serial/02-twoValuesToP5/sketch.js)** - be sure to enter your port
