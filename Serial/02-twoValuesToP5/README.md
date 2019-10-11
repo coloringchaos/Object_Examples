@@ -38,3 +38,5 @@ A few notes on running this example:
 + Your p5 project must include the [p5.serialport.js](https://raw.githubusercontent.com/vanevery/p5.serialport/master/lib/p5.serialport.js) library - be sure to also link to this file from your index.html page
 + Be sure that you have downloaded the p5 serial control application to run in the background. This is a necessary step in connecting your web browser (p5) to the serial port on your computer.
 + Make sure the Arduino serial monitor is **closed** before you move to the P5 side
+
+**[Here is the completed P5 code](https://github.com/coloringchaos/Object_Examples/blob/master/Serial/02-twoValuesToP5/sketch.js)**
